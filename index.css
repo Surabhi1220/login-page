@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(pexels-alex-andrews-821718.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.container
+{
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 39%;
+    
+}
+.container h1{
+    font-size: 40px;
+    border-bottom: 2px solid plum;
+    margin-bottom: 29px;
+    padding: 13px 0;
+    display: inline;
+}
+.box
+{
+    width: 100%;
+    margin: 32px 0px;
+    border-bottom: 2px solid plum;
+    
+}
+.box input{
+    width: 75%;
+    border: none;
+    outline: none;
+    margin: 1px 0px;
+    padding: 0 12px;
+    background: none;
+    color: white;
+    font-size: 20px;
+}
+.box i{
+     
+     float: left;
+     text-align: center;
+}
+.btn
+{
+    font-size: 18px;
+    background: none;
+    cursor: pointer;
+    outline: none;
+    width: 39%;
+    margin: 12px 0;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid plum;
+    color: aliceblue;
+    font-weight: bold;
+}
+.btn:hover{
+    color: purple;
+    background-color: aliceblue;
+    opacity: 0.5;
+}
